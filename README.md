@@ -2,19 +2,15 @@ Primes: a search for
 --------------------
 
 
-Okay was playing with some silly ideas, and looking over my many FizzBuzz programs when I realized that they were the beginnings of prime searches.
- 
- 
-This is in a very rough state,  I am looknig to break this apart to use with threads and mpi now that I have aprox 3/4's of the numbers removed with the moduls and sqrt tests. 
+Okay I was playing with some silly ideas and looking over my many FizzBuzz programs when I realized they were the beginnings of prime searches.
+
+This is in a very rough state,  I am looking to break this apart to use with threads and MPI now that I have aprox 3/4's of the numbers removed with the modules and SQRT tests. 
 
 **
 Next step?
-Using the linkd list, use the list with a group of threads were each thread handles a node (or int) to run modulus against that number from a smaller and smaller list. 
+Using the linked list, use the list with a group of threads where each thread handles a node (or integer) to run modulus against that number from a smaller and smaller list.
 
-Because we only want so many threads running on one heap, use of mpi to create more heaps will be required as the search grows. As the serach grows so will the lenght of time the threads are working on each node. 
-
-
-
+Because we only want so many threads running on one heap, use of MPI to create more heaps than will be required as the search grows. As the search grows so will the length of time the threads are working on each node.
 
 The program is very simple:
  - it pulls a start:end point for search of primes
@@ -25,14 +21,11 @@ The program is very simple:
 
 
 **
-Todo:
+TODO:
  - major makefile clean
  - adjust linklist to make smaller
  - build threads 
  - seperate list and work layered division
-
-
-
 
 Compiling
 ---------

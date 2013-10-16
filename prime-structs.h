@@ -1,7 +1,5 @@
-
 #ifndef PRIME_STRUCTS_H
 #define PRIME_STRUCTS_H
-
 
 typedef struct node_s {
   int val_int;
@@ -10,8 +8,4 @@ typedef struct node_s {
   struct node_s *next;
 } node_s;
 
-
-
-
 #endif
-

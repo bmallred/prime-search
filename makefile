@@ -1,7 +1,7 @@
-CC=gcc -lm
-CFLAGS=-Wall -I. -pthread  
+CC=gcc
+CFLAGS=-lm -Wall -I. -pthread  
 LDFLAGS=-pthread
-SOURCES=prime-search.c prime-print.c prime-print.h
+SOURCES=prime-structs.h prime-search.c prime-print.c prime-print.h
 OBJECTS=$(SOURCES:.c=.o)
 EXECUTABLE=prime-search
 
